@@ -8,7 +8,7 @@ Developed a card featuring editorial content, including an article cover image, 
 
 ## UI Snapshot
 
-TODO
+![Blog Card](https://github.com/user-attachments/assets/69b21bb7-abe5-458f-9972-ff37b1d9cd79)
 
 ## Contributing
 
