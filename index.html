@@ -19,17 +19,30 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <!-- For current project, blog card image is critical so load is as soon as possible -->
+    <link
+      rel="preload"
+      as="image"
+      href="img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+    />
     <style>
       /* You may write styles inside this <style> tag or within `css/style.css`. */
     </style>
   </head>
   <body class="bg-gradient-to-tl from-[#D2D6DB] to-[#F9FAFB] pt-[120px]">
     <article class="w-[340px] mx-auto bg-white rounded-lg">
-      <img
+      <!-- Use lazy loading when building major project since
+        there, blog cards usually comes at the bottom of the page -->
+      <!-- <img
         src=".\img\spacejoy-YqFz7UMm8qE-unsplash.jpg"
         alt="Living room photo"
         class="rounded-t-lg object-cover h-72 w-full"
         loading="lazy"
+      /> -->
+      <img
+        src=".\img\spacejoy-YqFz7UMm8qE-unsplash.jpg"
+        alt="Living room photo"
+        class="rounded-t-lg object-cover h-72 w-full"
       />
       <div class="flex flex-col gap-3 px-4 py-6">
         <div class="flex flex-col gap-2">
